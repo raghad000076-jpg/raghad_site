@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   <link href="style.css" rel="stylesheet"></link>
+    
+
+<style>
+.tabel{  
+   display:none;
+}
+
+.options {
+  display: none;
+}
+</style>
+
+<script>
+
+
+
+function toggleTable(tableId) {
+  var table = document.getElementById(tableId);
+  var checkbox = document.getElementById(tableId + 'Checkbox');
+  
+  if (table.style.display === 'none') {
+    table.style.display = 'table';
+    checkbox.checked = true;
+  } else {
+    table.style.display = 'none';
+    checkbox.checked = false;
+  }
+}
+
+
+
+
+document.getElementById('showOptions').addEventListener('click', function() {
+  document.getElementById('options').style.display = 'block';
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="class4">
+   
+  <div align="center"> <br>
+    <h3 class="h1">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</h3>
+    <H3 class="h1" >ِ﴾ فِي بُيُوتٍ أَذِنَ اللَّهُ أَن تُرفَعَ وَيُذكَرَ فِيهَا اسمُهُ يُسَبِّحُ لَهُ فِيهَا بِالغُدُوِّ وَالآصالِ﴿</H3>
+    <table border="9" cellpadding="4" cellspacing="15"class="dive">
+      
+  
+<tr class="class1">
+<!-- <td align="center">أختيار</td> -->
+<td align="center">إظهار فيديوهات مراحل العمل  </td>
+<td align="center">اسم المسجد   </td>
+<td align="center">تفاصيل</td>
+<td align="center">المدينة</td>
+</tr>
+    
+
+
+
+
+    <tr>
+        <!-- <td align="center"><input type="radio"  name="option" value="option3"   /></td> -->
+        <td align="center">  <input type="checkbox" name="checkbox" value="ho1"  id="table3Checkbox" onclick="toggleTable('table3')"  id="showOptions" />        </td>
+        <td align="center"  class="class3">  <span ><b> التقي  </b></span> </td>
+        <td align="center" class="class3">     إعادة اعمار والإكساء مسجد بالكامل </td>
+        <td align="center" class="class3"> الدرخبية </td>
+           </tr>
+           <td id="table3"  id="options" style="display:none;">
+
+                                                 <video src="video/جامع التقي بالدرخبية جزء الاول.mp4" class="video" controls ></video>
+                                                   
+                                                    <video src="video/جامع التقي بالدرخبية جزء الثاني.mp4" class="video" style="margin-left: 50px;"controls></video>
+     
+  
+           </td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+        
+   </td>
+
+          <tr>
+            <!-- <td align="center"><input type="radio"   name="option" value="option4"  /></td> -->
+            <td align="center">  <input type="checkbox" name="checkbox" value="ho1" id="table4Checkbox" onclick="toggleTable('table4')"   id="showOptions" />        </td>
+            <td align="center"  class="class3"> <span ><b >  محمد الطالوي </b></span>  </td>
+            <td align="center" class="class3">         تجديد بالكامل  مع الحفاظ على الطابع المعماري القديم </td>
+            <td align="center" class="class3">قنوات </td>
+            </tr>
+            <td id="table4" id="options" style="display:none; ">
+
+        <video src="video/جامع محمد الطالوي بالقنوات.mp4" class="video" controls></video></td>
+                        
+        
+           </td>                                      
+                                 
+
+
+
+
+
+                 
+
+<tr>
+<!-- <td align="center"><input type="radio"  name="option" value="option1" /></td> -->
+<td align="center"> <input type="checkbox" name="checkbox" value="ho1" id="table1Checkbox" onclick="toggleTable('table1')"  id="showOptions" /> </td>
+
+<td align="center" class="class3">  <span class=""><b> أبو نصرالبساتنه </b></span> </td>
+<td align="center" class="class3">      إعادة اعمار والإكساء مسجد بالكامل </td>
+<td align="center" class="class3">روضة /الزبداني </td>
+ </tr>  
+<td id="table1"  id="options" style="display:none;">
+
+      
+
+<video class="video" controls>
+    <source src="video/جامع ابو النصر   البساتنه الروضة الذبداني.mp4" type="video/mp4">
+    <source src="video/‏‏جامع ابو النصر   البساتنه الروضة الذبداني - نسخة.mp4" type="video/ogg">
+    Your browser does not support the video tag!
+</video>
+     
+</td>
+        
+                         
+
+      
+<tr>
+    <!-- <td align="center"><input type="radio"   name="option" value="option2" /></td> -->
+    <td align="center">  <input type="checkbox"  name="checkbox" value="ho1"  id="table2Checkbox" onclick="toggleTable('table2')"   id="showOptions" >        </td>
+
+
+    <td align="center"  class="class3"> <span ><b>  كتخدا </b></span>  </td>
+    <td align="center" class="class3">    تجديد بالكامل  مع الحفاظ على الطابع المعماري القديم  </td>
+    <td align="center" class="class3">قنوات/الشام القديمة </td>
+    </tr>
+    <td id="table2"  id="options" style="display:none;"  >
+
+       
+<video src="video/جامع كدخدا دمشق القديمة.mp4" class="video" controls></video>
+
+
+
+              </td>
+     
+
+  
+   </td>
+
+
+       
+        
+                         
+
+
+
+
+
+
+            <tr  >
+                <!-- <td align="center"><input type="radio"  name="option" value="option5"  /></td> -->
+                <td align="center">  <input type="checkbox" name="checkbox" value="ho1" id="table5Checkbox" onclick="toggleTable('table5')"  id="showOptions" />        </td>
+                <td align="center"  class="class3">  <span > <b> الخنشور  </b></span> </td>
+                <td align="center" class="class3"> ترميم  مئذنة  </td>
+                <td align="center" class="class3">دوما </td>
+                </tr>
+                <td id="table5" id="options" style="display:none;">
+
+<img src="imges/" alt="">
+                       
+                   </td>
+
+
+
+                                    </tr>
+                                   
+                                
+                                
+
+
+
+                                        
+                                
+
+
+</tr>
+
+                                
+                                                 
+                                  
+ </table>
+
+      
+
+
+
+</body>
+</html>
+
+
+
+
