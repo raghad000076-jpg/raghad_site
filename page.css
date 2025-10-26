@@ -6,10 +6,10 @@
 }
    
 .imges-1{
-margin: 10px; 
+margin: 10em; 
     opacity: 0.6;
-    height: 100px;
-    width: 100px;
+    height: 100em;
+    width: 100em;
 color: #110b03;
 font-size: larger;
 font-weight: lighter;
@@ -43,7 +43,7 @@ font-weight: lighter;
 .div-1{
 
 padding: px;
-margin: 300px;
+margin: 300em;
 
 
 
@@ -51,20 +51,19 @@ margin: 300px;
 }
 
 
-
  .bo{ 
     align-content: center;
     position: center;
-    bottom: 100px;
+    bottom: 100em;
      }
     div{
-margin: 200px;
+margin: 200em;
  }
  
  h2{
     color:  #fefef9;
 
-    text-shadow: 9px 9px 7px rgba(230, 100, 8, 0.552);
+    text-shadow: 9em 9em 7em rgba(230, 100, 8, 0.552);
     
       font-size: 2rem; /* حجم النص */
       font-weight: bold; /* سمك النص */
@@ -75,7 +74,7 @@ margin: 200px;
 }
  h1
  {color: #ffffff;
-    text-shadow: 2px 7px 9px rgba(230, 100, 8, 0.552);
+    text-shadow: 2em 7em 9em rgba(230, 100, 8, 0.552);
 
 }
 .h1-1{
@@ -94,17 +93,17 @@ color: #94530f;
 
 
 
-.label-1{ font-weight: 600;
+.label-1{ font-weight: 600em;
   font-size: large;
- padding: 40px;
+ padding: 40em;
  color: #703f0e;
- text-shadow: 2px 7px 9px rgba(158, 144, 94, 0.552);
+ text-shadow: 2em 7em 9em rgba(158, 144, 94, 0.552);
       text-decoration: none;
 /* margin: 40px; */
 }
   .social-icons i {
-    font-size: 20px; /* لتكبير حجم الأيقونات */
-    margin: 0 5px; /* مسافة بين الأيقونات */
+    font-size: 20em; /* لتكبير حجم الأيقونات */
+    margin: 0 5em; /* مسافة بين الأيقونات */
     color: #0e0b0b; /* لون افتراضي */
   }
 
@@ -128,13 +127,13 @@ color: #94530f;
   table { 
     border-collapse: collapse;
     width: 80%;
-    margin: 20px auto;
+    margin: 20em auto;
     text-align: center;
   
 }
 th, td {
-    border: 1px solid #ddd;
-    padding: 10px; 
+    border: 1em solid #ddd;
+    padding: 10em; 
 }
 th {
     background-color: #cc691d;
@@ -151,11 +150,11 @@ th {
         #toggleImage {
             cursor: pointer; /* يغير شكل المؤشر ليصبح يد عند المرور فوق الصورة */
             /* يمكنك إضافة المزيد من التنسيقات هنا مثل border, padding, width, etc. */
-            width: 80px; /* مثال لحجم الصورة */
+            width: 80em; /* مثال لحجم الصورة */
             height: auto;
-            border: 1px solid #3e2508;
-            padding: 5px;
-            margin-bottom: 10px; /* مسافة تحت الصورة */
+            border: 1em solid #3e2508;
+            padding: 5em;
+            margin-bottom: 10em; /* مسافة تحت الصورة */
         }
 
         /* تنسيق اختياري للعنصر الذي سيتم إخفاؤه/إظهاره */
@@ -177,4 +176,5 @@ tbody td:hover{
 
 
 }
+
 
