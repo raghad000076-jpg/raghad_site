@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body
+{
+    
+        background-color:rgb(226, 224, 96);
+        background-position: center;
+        text-align: center;
+}
+
+.sr-background-transparent {
+        background-color: rgb(254, 254, 255);
+        border-color: gold;
+
+    }
+    .footer{
+
+     background:#34495e;
+   color:white;
+   text-align: center;
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+th, td {
+padding-inline-start: 215px;
+padding-inline-end: 157px;
+}
+
+table {
+margin-left: auto; 
+margin-right: auto;
+   color:white;
+
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background: #34495e;
+    font-size: 40px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    text-align: center;
+    height: 60px;
+  }
+
+
+
+  nav span {
+    font-size: 36px;
+    color: white;
+  }
+
+
+
+h2{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+
+}
+.phone-button {
+background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: #e4dddd;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.class4{
+  background:url(qq.png);
+ background-repeat: no-repeat;
+ background-size:100%;
+ }
+ .class5{
+
+  
+    width: 800px;
+    height: 450px;
+    border: 1px solid rgb(47, 102, 138);
+    position:absolute;
+      top:50%;
+      left:50%;
+      margin:-225px 0 0 -400px;
+  
+  
+  
+
+
+
+ }
+
+ .ul{
+
+
+  font-style: oblique;
+text-align: right;
+
+ }
+ .img{
+
+height: 100;
+width: 150;
+
+ }
+ .bo{
+align-content: center;
+position: center;
+bottom: 100;
+ }
+ .p{  background: linear-gradient(120deg,#8d9196,#46474b);
+    
+  border-radius: 20px;
+
+ margin-top: 1%;
+ cursor: pointer;
+
+ padding: 1%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 100%;
+
+ text-align: right;
+}
