@@ -1,4 +1,4 @@
-body{
+@media (max-width: 768px) {body{
     background:url(imges/OMAN-1.jpg);
  background-repeat: no-repeat;
  background-size:100%;
@@ -175,4 +175,6 @@ tbody td:hover{
       color: #fffaf7; /* لون مختلف عند المرور */
       transform: scale(1.1); /* تكبير */}
 
+
+}
 
