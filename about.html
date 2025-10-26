@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+
+<script>
+   function validateArabicInput(input) {
+       let arabicPattern = /[\u0600-\u06FF\s]+/; // تعبيرات قوائم الحروف العربية
+       if (!arabicPattern.test(input.value)) {
+           document.getElementById("error").innerText = "الرجاء إدخال حروف باللغة العربية فقط";
+           input.value = ""; // مسح المحتوى إذا كانت الإدخالات غير صحيحة
+       } else {
+           document.getElementById("error").innerText = "";
+       }
+   }
+
+
+
+
+ </script>
+
+
+
+<script>
+
+
+
+function validatePoneNumber(input) {
+ let poneNumberPattern =  /^(099|097| 091|092|094)\d{7}$/;
+ if (!poneNumberPattern.test(input.value)) {
+     document.getElementById("error").innerText = " الرجاء   إدخال الرقم حسب شركتي سرياتيل او ام تي ان ";
+     
+ } else {
+     document.getElementById("error").innerText = "";
+ }
+}
+
+</script>
+<script>
+function validateEmail(input) {
+       
+
+         const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+         
+         if (!emailPattern.test(input.value)) {
+             document.getElementById("error").innerText = "رجاء الدخال بهذا الشكل ****@****. **";
+ } else {
+     document.getElementById("error").innerText = "";
+ }
+     }
+
+
+
+
+</script>
+
+
+
+<style>
+input:focus{
+    background-color:rgb(231, 183, 9) ;
+}
+
+table td:hover{ background-color: rgb(254, 253, 251);}
+i{font-size: 90%; padding: 20px;}
+
+
+
+</style>
+</head>
+<body class="class4" >
+    
+<h1 class="h9">تواصل معنا </h1>
+<h2 class="h9">نسعد بتواصلك معنا سيتم الرد على استفسارك في أسرع وقت ممكن</h2>
+<div align="center">
+<table border="5" class="dive" >
+
+<td>
+<div align="center">
+<h3 class="" >معلومات الاتصال </h5><br>
+    <h2> محمد رشاد حامد </h2>
+<i class="fas fa-phone" style="color: rgb(188, 160, 35); " > 0934125975 </i><br><br>
+<a href="https://maps.app.goo.gl/jo1MREkLwkuYnxHb8" >
+<i class="fas fa-map-marker-alt" style="color: darkgoldenrod;"> سوريا _ريف دمشق _دوما </i></a>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3324.488548352773!2d36.39444142454597!3d33.5666624432147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1761495766525!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!-- </td>
+<td rowspan="2">
+<form action="php.php"  dir="rtl" class="form" method="post">
+<label for="" > الاسم الكامل </label>
+<input type="text" class="input"  name="name"   id="arabicInput" oninput="validateArabicInput(this)"> <br>
+<label for="" class="label"> رقم الهاتف</label>
+<input type="number" name="" id="" class="input"  id="poneNumberInput" oninput="validatePoneNumber(this) "   maxlength="10">
+<label for="" class="label"> البريد الإلكتروني</label>
+<input type="email" name="" id="" class="input"  id="emailInput"  class="input" oninput="validateEmail(this) " placeholder="*****@******.com" ><br>
+<label for="" class="label"> الرسالة </label><br>
+<textarea name="" id="" class="input"></textarea><br>
+<input type="submit" value=" ارسال " class="p2" >
+ <h3 id="error"  class="h3"></h3>
+</form>
+</td>
+<tr>
+<td> -->
+    <div align="center">
+    <h5 class="">مواقع التواصل الإجتماعي</h1>
+
+
+
+ <p  class="social-icons">
+        <a href="https://www.facebook.com/share/18rpXjN4ZL/" target="_blank" >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/bids_office?r=nametag" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/Rashad5432" target="_blank">
+         <i class="fab fa-telegram"></i>
+
+        </a>
+    </p>
+
+</div>
+</td>
+</table>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

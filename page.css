@@ -1,0 +1,178 @@
+body{
+    background:url(imges/OMAN-1.jpg);
+ background-repeat: no-repeat;
+ background-size:100%;
+   
+}
+   
+.imges-1{
+margin: 10px; 
+    opacity: 0.6;
+    height: 100px;
+    width: 100px;
+color: #110b03;
+font-size: larger;
+font-weight: lighter;
+
+
+
+}
+
+/* اختر الصورة التي تريد تطبيق التأثير عليها */
+.img {
+  /* (اختياري) أضف انتقالاً سلساً ليجعل التكبير يحدث بتدريج */
+  transition: transform 0.6s ease-out; /* المدة 0.3 ثانية، ونوع الحركة ease */
+
+  /* (اختياري) يمكنك إضافة مؤشر الفأرة ليشير إلى أنها تفاعلية */
+  cursor: pointer;
+
+  /* (اختياري) تأكد من أن الصورة لا تتجاوز عرض الحاوية */
+  max-width: 100%;
+  height: auto;
+  display: block; /* يساعد في التنسيق */
+}
+
+/* طبق هذه التغييرات عندما يمر مؤشر الفأرة فوق الصورة */
+.img:hover {
+  /* استخدم transform: scale() لتغيير حجم الصورة */
+  transform: scale(1.2); /* القيمة 1.1 تعني تكبير الصورة بنسبة 10% (1.1 مرة حجمها الأصلي) */
+  /* يمكنك تغيير القيمة لتكبير أكثر أو أقل (مثلاً: 1.2 لتكبير 20%) */
+}
+
+
+.div-1{
+
+padding: px;
+margin: 300px;
+
+
+
+
+}
+
+
+
+ .bo{ 
+    align-content: center;
+    position: center;
+    bottom: 100px;
+     }
+    div{
+margin: 200px;
+ }
+ 
+ h2{
+    color:  #fefef9;
+
+    text-shadow: 9px 9px 7px rgba(230, 100, 8, 0.552);
+    
+      font-size: 2rem; /* حجم النص */
+      font-weight: bold; /* سمك النص */
+    
+    
+    
+    
+}
+ h1
+ {color: #ffffff;
+    text-shadow: 2px 7px 9px rgba(230, 100, 8, 0.552);
+
+}
+.h1-1{
+color: #94530f;
+
+
+}
+
+    .box {
+      
+            
+            position: sticky;
+        
+         
+        }
+
+
+
+.label-1{ font-weight: 600;
+  font-size: large;
+ padding: 40px;
+ color: #703f0e;
+ text-shadow: 2px 7px 9px rgba(158, 144, 94, 0.552);
+      text-decoration: none;
+/* margin: 40px; */
+}
+  .social-icons i {
+    font-size: 20px; /* لتكبير حجم الأيقونات */
+    margin: 0 5px; /* مسافة بين الأيقونات */
+    color: #0e0b0b; /* لون افتراضي */
+  }
+
+  .social-icons .fa-facebook {
+    color: #3b5998; /* لون فيسبوك */
+  }
+
+  .social-icons .fa-instagram {
+    color: #e02717; /* لون انستجرام (أقرب للتدريج اللوني) */
+  }
+
+  .social-icons .fa-whatsapp {
+    color: #1d994a; /* لون واتساب */
+  }
+  
+
+
+
+
+
+  table { 
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px; 
+}
+th {
+    background-color: #cc691d;
+} 
+
+
+
+
+  .hidden {
+            display: none;
+        }
+/* 
+        تنسيق اختياري للصورة لجعلها تبدو قابلة للنقر */
+        #toggleImage {
+            cursor: pointer; /* يغير شكل المؤشر ليصبح يد عند المرور فوق الصورة */
+            /* يمكنك إضافة المزيد من التنسيقات هنا مثل border, padding, width, etc. */
+            width: 80px; /* مثال لحجم الصورة */
+            height: auto;
+            border: 1px solid #3e2508;
+            padding: 5px;
+            margin-bottom: 10px; /* مسافة تحت الصورة */
+        }
+
+        /* تنسيق اختياري للعنصر الذي سيتم إخفاؤه/إظهاره */
+        .table-2{
+background-color: #e7a675;
+
+}
+
+
+
+
+
+        /*تلوينهم روابط */
+
+a:hover {color: hsl(36, 41%, 81%);}
+tbody td:hover{
+      color: #fffaf7; /* لون مختلف عند المرور */
+      transform: scale(1.1); /* تكبير */}
+
+
