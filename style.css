@@ -1,308 +1,46 @@
-@media (max-width: 768em) {.class1 {
-background-color: rgb(223, 185, 128);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: normal;
-font-weight: bold;
-color: #5f410d;
-border-color: #f7f5f2;
-font-size: large;
-}
-
-.class2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: rgb(213, 155, 20);
-
-
-}
-.class3{
-
-
-background: linear-gradient(120deg,#8d9196,#ca8d42);
-
-}
-.dive{
-color:   rgb(137, 89, 18);
-padding:1%;
-margin-left: 3%;
-margin-top: 100em;
-background-size: cover;
-}
-.class4{
- background:url(imges/Download\ premium\ vector\ of\ White\ and\ gold….jpg);
-background-repeat: no-repeat;
-
-background-size: cover;
-background-attachment: fixed;
-}
-.class5{
-
-    background-color: rgba(106, 167, 21, 0.795);
-    outline: none;
-   text-align: center;
-   margin: 2%;
-   box-shadow: inset --10.5em 0 0 0 rgb(14, 11, 179) , inset 10.5em 0 0 0 #549de2;
-}
-.p{
-    
-    background: linear-gradient(120deg,#8d9196,#ca8d42);
-    
-    border-radius: 20em;
-  
-   margin-top: 1%;
-   cursor: pointer;
- 
-   padding: 1%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 100%;
-  
-   text-align: right;
-
-}
-
-.class6{
-width: 120em;
-   height: 15em;
-   padding: 12em 20em;
-   border-radius: 20em;
-   box-shadow: 0 15em 35em rgba(0,0,0,0.5);
-   background-color: rgba(255,255,255,0.05);
-   text-align: center;
-   margin: 30em auto;
-   cursor: pointer;
-}
-.card{
-    
-   
-    width: 170em;
-    height: 170em;
-    background: linear-gradient(rgb(27, 25, 182), rgb(94, 140, 199));
-    border-radius: 50%;
-    content: '';
-box-shadow: inset --10.5em 0 0 0 rgb(14, 11, 179) , inset 10.5em 0 0 0 #549de2;
-}
-.spaned{
-    font-style: unset;
-color: rgb(255, 255, 255);
-width: 50%;
-}
-.divr{
-    color:   rgb(0, 0, 0);
-    background-color: rgb(191, 200, 204);
-    padding: 0%;
-
-
-text-align: right;
-margin: 1%;
-}
-.class7{
-
-    margin: 1%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.form{ 
-    text-align: right;
-    border-radius: 9%;
-    margin:1em;
-    /* background:url(rrr\ \(1\).png); */
-    width: 550em;
-    flex-direction: column;
+body {
+    background: linear-gradient(135deg, #1a1a1a, #4a90e2); /* تدرج لوني احترافي */
+    font-family: 'Cairo', sans-serif;
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-    }
-    .input{
-        padding: 2%;
-        outline: none;
-        border-radius: 10%;
-        background: linear-gradient(120deg,#8d9196,#bd8608);
-        margin: 3%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-   .p2 {background-color: rgba(192, 124, 23, 0.795);
-        outline: none;
-       text-align: center;
-       margin: 2%;
-    }
-    .h3{ border-radius: 5%;
-        
-        background: linear-gradient(120deg,#8d9196,#46474b);
-        text-align: center;
-    color: rgb(255, 255, 255);
-    }
-   .div{
-      max-width: 100%;
-     
-    background:url(zzzz.png);
-    padding: 200em;
-    
-    position: relative;
-    background-repeat: no-repeat;
-    background-size:100%;
-    }
-    
-   .h2{
-    text-align: right;
-    margin-top: 40em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 14em;
-    color: rgb(141, 83, 8);
-    
-    
-    border-width:5em;
-    padding: 10em;
-     animation-name: inherit;
-    }
-   .label{
-    
-    font-size: larger;
-    
-    }
-    .h9{ 
-        border-radius: 5%;
-        background: linear-gradient(120deg,#8d9196,#8c5f06);
-        text-align: center;
-        color: rgb(255, 255, 255);
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .class1-ph{
-
-
-
-background-color: rgb(223, 185, 128);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: normal;
-font-weight: bold;
-color: #5f410d;
-border-color: #f7f5f2;
-font-size: large;
-margin: 400em;
-    }
-
-
-
-
-
-
-
-
-
-
-
-     .social-icons i {
-    font-size: 20em; /* لتكبير حجم الأيقونات */
-    margin: 0 5em; /* مسافة بين الأيقونات */
-    color: #0e0b0b; /* لون افتراضي */
-  }
-
-  .social-icons .fa-facebook {
-    color: #3b5998; /* لون فيسبوك */
-  }
-
-  .social-icons .fa-instagram {
-    color: #e02717; /* لون انستجرام (أقرب للتدريج اللوني) */
-  }
-
-  .social-icons .fa-whatsapp {
-    color: #1d994a; /* لون واتساب */
-  }
-  
-  .h1
- {color: #875f08;
-    text-shadow: 2em 7em 9em rgba(230, 100, 8, 0.552);}
-
-
-    .video{
-    
-  width: 150em;
-  height: 150em;
-
-
-  border: 3em solid #eab918;
-  border-radius: 16em 5em;
-
-  position: relative;
-  z-index: 40;
-
-  transform: scale(1.2);
-  opacity: 0.9;
-  transition:  0.9s ease;
-
-  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-a:hover {color: #ac1111aa;}
-
-
-
-
-
-/* صفحة المساجد المدمرة  */
-
-
-.items{
-display: flex;
-
+/* تطبيق مفاهيم المحاضرة 3: الحاويات المرنة */
+.invitation-wrapper {
+    max-width: 1200px; /* الالتزام بالقياس المذكور في محاضرة 3 */
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
-
-
-
-.img {
-  /* (اختياري) أضف انتقالاً سلساً ليجعل التكبير يحدث بتدريج */
-  transition: transform 0.6s ease-out; /* المدة 0.3 ثانية، ونوع الحركة ease */
-
-  /* (اختياري) يمكنك إضافة مؤشر الفأرة ليشير إلى أنها تفاعلية */
-  cursor: pointer;
-
-  /* (اختياري) تأكد من أن الصورة لا تتجاوز عرض الحاوية */
-  max-width: 100%;
-  height: 90em;
-  display: block; /* يساعد في التنسيق */
-
-  width: 150em;
+.main-card {
+    background: linear-gradient(to bottom right, #ffffff, #003cff);
+    border: 3px solid #d4af37;
+    position: relative; /* لمحاضرة Position */
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
-/* طبق هذه التغييرات عندما يمر مؤشر الفأرة فوق الصورة */
-.img:hover {
-  /* استخدم transform: scale() لتغيير حجم الصورة */
-  transform: scale(1.2); /* القيمة 1.1 تعني تكبير الصورة بنسبة 10% (1.1 مرة حجمها الأصلي) */
-  /* يمكنك تغيير القيمة لتكبير أكثر أو أقل (مثلاً: 1.2 لتكبير 20%) */
+/* تأثير Hover احترافي */
+.main-card:hover {
+    transform: translateY(-10px);
 }
 
-
+/* توزيع العناصر بالـ Grid */
+.card-grid {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
 }
-    
+.card-body{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+.gold-badge{
+    position:fixed;
+}
